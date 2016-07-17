@@ -19,12 +19,12 @@
     "caption_en": "Salons",
     "name": "clubs",
     "description_en": "Find your Salon"
-  },
+  },  
   {
     "name": "collection",
     "image": "http://i.imgur.com/6XvZEMp.jpg",
     "description_en": "Find Your Style",
-    "caption_en": "Collection"
+    "caption_en": "Collection",
     "link": "#/special"
   },
   {
