@@ -1,0 +1,44 @@
+{ "buttons": 
+  [{
+    "link": "#/venue?venueId=123",
+    "image": "http://i.imgur.com/D5cBPjB.jpg",
+    "caption_en": "Book",
+    "name": "book",
+    "description_en": "Make an Appointment"
+  },
+  {
+    "link": "#/gym-products",
+    "image": "http://i.imgur.com/91IWQ8P.jpg",
+    "caption_en": "Explore",
+    "name": "classes",
+    "description_en": "Discover our Services"
+  },
+  {
+    "link": "#/venues?groupName=ueni&entireGroup=true",
+    "image": "http://i.imgur.com/yDlQoLU.jpg",
+    "caption_en": "Salons",
+    "name": "clubs",
+    "description_en": "Find your Salon"
+  },
+  {
+    "name": "collection",
+    "image": "http://i.imgur.com/6XvZEMp.jpg",
+    "description_en": "Find Your Style",
+    "caption_en": "Collection"
+    "link": "#/special"
+  },
+  {
+    "name": "other",
+    "image": "http://i.imgur.com/oKU8eij.jpg",
+    "description_en": "The History of the House",
+    "caption_en": "Our Salon",
+    "link": "#/2"
+  },
+  {
+    "name": "other2",
+    "image": "http://i.imgur.com/4Stw0tA.jpg",
+    "description_en": "Need something different?",
+    "caption_en": "Other Haircuts",
+    "link": "#/2"
+  }]
+}
