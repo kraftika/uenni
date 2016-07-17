@@ -1,16 +1,20 @@
 <div class="container">
   <!-- Header -->
-  <div class="header">
+  <div class="header">ueni
   </div>
   <!-- Content table -->
   <div class="table-container">
-    <div class="table-responsive">
-      <table class="table table-condensed">
+    <div class="table table-responsive">
+      <table class="table">
           <!-- <tr ng-repeat="founder in founders | filter:search | orderBy:sortField:sortReverse"> -->
         <tr ng-repeat="item in items">
-          <td><img ng-src="{{item.image}}" class="img-rounded"></td>
-          <td><a ng-href="{{item.link}}" target="_blank">{{item.caption_en}}</a></td>
-          <td>{{item.description_en}}</td>
+          <td><img ng-src="{{item.image}}" class="img-circle"></td>
+          <td>
+            <div class="cell-item">
+              <a ng-href="{{item.link}}" target="_blank">{{item.caption_en}}</a>
+              <p>{{item.description_en}}</p>              
+            </div>
+          </td>
         </tr>
       </table>
     </div>
