@@ -2,6 +2,7 @@
 @touch-target: @base-font*1.2;
 @smartphones: ~"only screen and (max-width: 450px)";
 @tablets: ~"only screen and (max-width: 998px)";
+@font-color: #6c6d6f;
 
 :root {
   font-size: @base-font;
@@ -18,9 +19,6 @@ html, body {
 
 .container {
   width: 100%;
-  // height: 100%;
-  // display: flex;
-  // flex-wrap: wrap;
   padding: 0px;
   margin: 0px;
 }
@@ -31,7 +29,9 @@ html, body {
   width: 100%;
   height: 60px;
   background-color: #43516C;
+}
 
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,28 +41,38 @@ html, body {
   letter-spacing: 2px;
 }
 
+.search {
+  position: absolute;
+  min-width: 1.2rem;
+  min-height: 1.2rem;
+  color: #fff;
+  font-size: 25px;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #eaecd4;
+  color: @font-color;
+  letter-spacing: 0.5px;
+
+  &-title {
+    font-weight: bold;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+}
+
 .table-container {
   width: 100%;
   height: 100%;
-
-  // @media @smartphones {
-  //   width: 100%;
-  //   height: 50%;
-  // }
-
-  // @media @tablets {
-  //   width: 100%;
-  //   height: 50%;
-  // }
 }
 
 .cell-item {
   padding-top: 10px;
-}
-
-td {
-  padding: 10px 20px 20px 10px;
-  // border-bottom: 1px solid green; 
 }
 
 td > img {
@@ -74,10 +84,24 @@ a, a:visited {
   min-width: 48px;
   min-height: 48px; 
 
-  color: #1b1c1d;
-  font-weight: bold;
+  color: @font-color;
+  font-size: large;
 } 
 
 a:hover {
   color: #43516C;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.btn-footer {
+  width: 100%
+  height: 40px;
+  background-color: #fff;
+  border-color: #ccc;
 }
